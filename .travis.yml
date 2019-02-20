@@ -10,7 +10,8 @@ python:
   - "3.6-dev"  # 3.6 development branch
   - "3.7-dev"  # 3.7 development branch
 # command to install dependencies
-# install:
+install:
+  - pip install -q RPi.GPIO
 # command to run tests
 script:
   - python main.py
